@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dupeswap",
+  "version": "${version}",
+  "name": "Dupe Swap",
+  "description": "Client-side main-hand/off-hand swapper.",
+  "authors": ["Example"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.dupeswap.DupeSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
